@@ -132,6 +132,32 @@
     <wire from="(440,160)" to="(440,250)"/>
     <wire from="(210,370)" to="(210,400)"/>
     <wire from="(300,350)" to="(370,350)"/>
+    <comp lib="1" loc="(300,350)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(150,370)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="S_Sign"/>
+    </comp>
+    <comp lib="0" loc="(460,150)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="Result"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(530,400)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Sign Bit"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(540,250)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Carry Out"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="0" loc="(210,260)" name="Pin">
       <a name="width" val="32"/>
       <a name="tristate" val="false"/>
@@ -142,35 +168,10 @@
       <a name="tristate" val="false"/>
       <a name="label" val="L_Sig"/>
     </comp>
-    <comp lib="0" loc="(540,250)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Carry Out"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(530,400)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(150,370)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="S_Sign"/>
-    </comp>
     <comp lib="7" loc="(390,150)" name="ALU"/>
-    <comp lib="0" loc="(460,150)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="Result"/>
-      <a name="labelloc" val="east"/>
-    </comp>
     <comp lib="0" loc="(150,330)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="L_Sign"/>
-    </comp>
-    <comp lib="1" loc="(300,350)" name="XOR Gate">
-      <a name="inputs" val="2"/>
     </comp>
   </circuit>
 </project>
