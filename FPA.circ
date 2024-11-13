@@ -81,8 +81,9 @@
   <lib desc="file#Normalizer.circ" name="7"/>
   <lib desc="file#Significand Adder.circ" name="8"/>
   <lib desc="file#Output.circ" name="9"/>
-  <lib desc="file#IPH.circ" name="10"/>
-  <lib desc="file#Rounder.circ" name="11"/>
+  <lib desc="file#Rounder.circ" name="10"/>
+  <lib desc="file#IPH.circ" name="11"/>
+  <lib desc="file#RoundedNormalizer.circ" name="12"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -122,67 +123,98 @@
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(260,150)" to="(320,150)"/>
-    <wire from="(440,140)" to="(440,210)"/>
-    <wire from="(410,150)" to="(410,220)"/>
-    <wire from="(540,130)" to="(540,140)"/>
     <wire from="(440,140)" to="(490,140)"/>
     <wire from="(420,140)" to="(420,150)"/>
+    <wire from="(600,150)" to="(660,150)"/>
+    <wire from="(620,250)" to="(660,250)"/>
+    <wire from="(690,140)" to="(730,140)"/>
+    <wire from="(220,400)" to="(770,400)"/>
+    <wire from="(550,280)" to="(660,280)"/>
+    <wire from="(400,130)" to="(490,130)"/>
+    <wire from="(260,170)" to="(350,170)"/>
+    <wire from="(520,160)" to="(550,160)"/>
+    <wire from="(260,120)" to="(290,120)"/>
+    <wire from="(260,130)" to="(280,130)"/>
+    <wire from="(350,160)" to="(370,160)"/>
+    <wire from="(540,140)" to="(570,140)"/>
+    <wire from="(520,130)" to="(540,130)"/>
+    <wire from="(520,150)" to="(540,150)"/>
+    <wire from="(220,290)" to="(220,400)"/>
+    <wire from="(550,160)" to="(550,280)"/>
+    <wire from="(520,140)" to="(530,140)"/>
+    <wire from="(150,110)" to="(160,110)"/>
+    <wire from="(290,130)" to="(370,130)"/>
+    <wire from="(260,160)" to="(340,160)"/>
+    <wire from="(720,160)" to="(720,220)"/>
+    <wire from="(160,150)" to="(230,150)"/>
+    <wire from="(420,150)" to="(490,150)"/>
+    <wire from="(720,160)" to="(730,160)"/>
+    <wire from="(440,140)" to="(440,210)"/>
+    <wire from="(410,150)" to="(410,220)"/>
+    <wire from="(540,170)" to="(660,170)"/>
+    <wire from="(540,130)" to="(540,140)"/>
+    <wire from="(610,160)" to="(660,160)"/>
+    <wire from="(410,220)" to="(720,220)"/>
+    <wire from="(700,160)" to="(700,230)"/>
     <wire from="(320,210)" to="(440,210)"/>
+    <wire from="(600,140)" to="(660,140)"/>
     <wire from="(290,120)" to="(290,130)"/>
     <wire from="(280,130)" to="(280,140)"/>
     <wire from="(340,150)" to="(340,160)"/>
     <wire from="(350,160)" to="(350,170)"/>
-    <wire from="(410,220)" to="(650,220)"/>
-    <wire from="(640,150)" to="(640,180)"/>
-    <wire from="(530,180)" to="(640,180)"/>
+    <wire from="(690,150)" to="(730,150)"/>
     <wire from="(160,110)" to="(160,140)"/>
-    <wire from="(400,130)" to="(490,130)"/>
+    <wire from="(540,150)" to="(540,170)"/>
+    <wire from="(610,160)" to="(610,180)"/>
+    <wire from="(620,230)" to="(620,250)"/>
     <wire from="(530,140)" to="(530,180)"/>
     <wire from="(280,140)" to="(370,140)"/>
-    <wire from="(260,170)" to="(350,170)"/>
-    <wire from="(650,160)" to="(670,160)"/>
-    <wire from="(260,120)" to="(290,120)"/>
     <wire from="(340,150)" to="(370,150)"/>
-    <wire from="(260,130)" to="(280,130)"/>
-    <wire from="(700,150)" to="(730,150)"/>
-    <wire from="(350,160)" to="(370,160)"/>
     <wire from="(400,140)" to="(420,140)"/>
-    <wire from="(540,140)" to="(570,140)"/>
-    <wire from="(520,130)" to="(540,130)"/>
-    <wire from="(640,150)" to="(670,150)"/>
     <wire from="(160,150)" to="(160,200)"/>
     <wire from="(400,150)" to="(410,150)"/>
-    <wire from="(520,140)" to="(530,140)"/>
-    <wire from="(600,140)" to="(670,140)"/>
-    <wire from="(150,110)" to="(160,110)"/>
+    <wire from="(770,150)" to="(770,400)"/>
     <wire from="(150,200)" to="(160,200)"/>
-    <wire from="(290,130)" to="(370,130)"/>
-    <wire from="(260,160)" to="(340,160)"/>
-    <wire from="(650,160)" to="(650,220)"/>
+    <wire from="(220,290)" to="(230,290)"/>
     <wire from="(160,140)" to="(230,140)"/>
-    <wire from="(160,150)" to="(230,150)"/>
     <wire from="(320,150)" to="(320,210)"/>
-    <wire from="(420,150)" to="(490,150)"/>
-    <comp lib="9" loc="(700,150)" name="Output"/>
-    <comp lib="0" loc="(150,200)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="B"/>
-    </comp>
-    <comp lib="7" loc="(520,130)" name="Normalizer"/>
-    <comp lib="0" loc="(730,150)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="11" loc="(600,140)" name="Rounder"/>
+    <wire from="(530,180)" to="(610,180)"/>
+    <wire from="(620,230)" to="(700,230)"/>
+    <wire from="(690,160)" to="(700,160)"/>
+    <wire from="(760,150)" to="(770,150)"/>
     <comp lib="0" loc="(150,110)" name="Pin">
       <a name="width" val="32"/>
       <a name="tristate" val="false"/>
       <a name="label" val="A"/>
     </comp>
-    <comp lib="10" loc="(260,120)" name="Input Processing Handler"/>
+    <comp lib="11" loc="(260,120)" name="Input Processing Handler"/>
+    <comp lib="9" loc="(760,150)" name="Output"/>
+    <comp lib="7" loc="(520,130)" name="Normalizer"/>
+    <comp lib="0" loc="(150,200)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="0" loc="(230,290)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(660,250)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Overflow"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="10" loc="(600,140)" name="Rounder"/>
     <comp lib="8" loc="(400,130)" name="Significand Adder"/>
+    <comp lib="0" loc="(660,280)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Underflow"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="12" loc="(690,140)" name="Rounded Normalizer"/>
   </circuit>
 </project>
