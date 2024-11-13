@@ -128,11 +128,11 @@
     <wire from="(700,520)" to="(790,520)"/>
     <wire from="(880,290)" to="(880,350)"/>
     <wire from="(320,370)" to="(520,370)"/>
-    <wire from="(700,640)" to="(700,650)"/>
-    <wire from="(700,400)" to="(700,410)"/>
-    <wire from="(910,530)" to="(960,530)"/>
-    <wire from="(700,480)" to="(700,490)"/>
     <wire from="(700,560)" to="(700,570)"/>
+    <wire from="(700,480)" to="(700,490)"/>
+    <wire from="(910,530)" to="(960,530)"/>
+    <wire from="(700,400)" to="(700,410)"/>
+    <wire from="(700,640)" to="(700,650)"/>
     <wire from="(570,430)" to="(570,440)"/>
     <wire from="(420,270)" to="(480,270)"/>
     <wire from="(320,380)" to="(510,380)"/>
@@ -283,6 +283,10 @@
     <wire from="(700,580)" to="(790,580)"/>
     <wire from="(320,290)" to="(400,290)"/>
     <wire from="(320,340)" to="(580,340)"/>
+    <comp lib="1" loc="(550,250)" name="OR Gate">
+      <a name="size" val="70"/>
+      <a name="inputs" val="8"/>
+    </comp>
     <comp lib="0" loc="(220,250)" name="Pin">
       <a name="width" val="32"/>
       <a name="tristate" val="false"/>
@@ -290,9 +294,33 @@
       <a name="labelloc" val="south"/>
       <a name="labelfont" val="SansSerif plain 16"/>
     </comp>
+    <comp lib="0" loc="(300,250)" name="Splitter">
+      <a name="fanout" val="32"/>
+      <a name="incoming" val="32"/>
+      <a name="appear" val="right"/>
+    </comp>
     <comp lib="1" loc="(850,290)" name="AND Gate">
       <a name="size" val="70"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(980,490)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(810,390)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="32"/>
+      <a name="incoming" val="32"/>
+    </comp>
+    <comp lib="6" loc="(1162,710)" name="Text">
+      <a name="text" val="Cout=1(Denormalized)"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="0" loc="(590,730)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="32"/>
+      <a name="incoming" val="32"/>
+      <a name="appear" val="right"/>
     </comp>
     <comp lib="3" loc="(1000,540)" name="Adder">
       <a name="width" val="32"/>
@@ -307,69 +335,15 @@
       <a name="labelfont" val="SansSerif plain 16"/>
     </comp>
     <comp lib="0" loc="(640,440)" name="Ground"/>
-    <comp lib="0" loc="(590,730)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="32"/>
-      <a name="incoming" val="32"/>
-      <a name="appear" val="right"/>
-    </comp>
-    <comp lib="0" loc="(810,390)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="32"/>
-      <a name="incoming" val="32"/>
-    </comp>
     <comp lib="0" loc="(1150,660)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="label" val="Cout"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(550,250)" name="OR Gate">
-      <a name="size" val="70"/>
-      <a name="inputs" val="8"/>
     </comp>
     <comp lib="1" loc="(720,250)" name="OR Gate">
       <a name="size" val="70"/>
       <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(300,250)" name="Splitter">
-      <a name="fanout" val="32"/>
-      <a name="incoming" val="32"/>
-      <a name="appear" val="right"/>
-    </comp>
-    <comp lib="6" loc="(1162,710)" name="Text">
-      <a name="text" val="Cout=1(Denormalized)"/>
-      <a name="font" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="0" loc="(980,490)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-  </circuit>
-  <circuit name="sticky">
-    <a name="circuit" val="sticky"/>
-    <a name="clabel" val=""/>
-    <a name="clabelup" val="east"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(240,300)" to="(320,300)"/>
-    <wire from="(340,330)" to="(470,330)"/>
-    <wire from="(340,320)" to="(470,320)"/>
-    <wire from="(340,310)" to="(470,310)"/>
-    <wire from="(340,300)" to="(470,300)"/>
-    <wire from="(340,290)" to="(470,290)"/>
-    <wire from="(340,280)" to="(470,280)"/>
-    <wire from="(340,270)" to="(470,270)"/>
-    <comp lib="0" loc="(320,300)" name="Splitter">
-      <a name="fanout" val="7"/>
-      <a name="incoming" val="7"/>
-      <a name="appear" val="center"/>
-    </comp>
-    <comp lib="1" loc="(540,300)" name="OR Gate">
-      <a name="size" val="70"/>
-      <a name="inputs" val="7"/>
-    </comp>
-    <comp lib="0" loc="(240,300)" name="Pin">
-      <a name="width" val="7"/>
-      <a name="tristate" val="false"/>
     </comp>
   </circuit>
 </project>
