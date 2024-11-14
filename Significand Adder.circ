@@ -117,34 +117,24 @@
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(210,370)" to="(240,370)"/>
-    <wire from="(210,400)" to="(530,400)"/>
-    <wire from="(150,330)" to="(240,330)"/>
-    <wire from="(150,370)" to="(210,370)"/>
+    <wire from="(150,370)" to="(240,370)"/>
+    <wire from="(200,330)" to="(200,400)"/>
     <wire from="(250,160)" to="(250,260)"/>
     <wire from="(390,160)" to="(440,160)"/>
     <wire from="(210,150)" to="(360,150)"/>
+    <wire from="(150,330)" to="(200,330)"/>
     <wire from="(370,180)" to="(370,350)"/>
     <wire from="(250,160)" to="(360,160)"/>
+    <wire from="(200,400)" to="(530,400)"/>
     <wire from="(440,250)" to="(540,250)"/>
     <wire from="(210,260)" to="(250,260)"/>
+    <wire from="(200,330)" to="(240,330)"/>
     <wire from="(390,150)" to="(460,150)"/>
     <wire from="(440,160)" to="(440,250)"/>
-    <wire from="(210,370)" to="(210,400)"/>
     <wire from="(300,350)" to="(370,350)"/>
-    <comp lib="1" loc="(300,350)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
     <comp lib="0" loc="(150,370)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="S_Sign"/>
-    </comp>
-    <comp lib="0" loc="(460,150)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="Result"/>
-      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(530,400)" name="Pin">
       <a name="facing" val="west"/>
@@ -158,20 +148,30 @@
       <a name="label" val="Carry Out"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(210,260)" name="Pin">
+    <comp lib="1" loc="(300,350)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(460,150)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
       <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="S_Sig"/>
+      <a name="label" val="Result"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(210,150)" name="Pin">
       <a name="width" val="32"/>
       <a name="tristate" val="false"/>
       <a name="label" val="L_Sig"/>
     </comp>
-    <comp lib="7" loc="(390,150)" name="ALU"/>
     <comp lib="0" loc="(150,330)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="L_Sign"/>
+    </comp>
+    <comp lib="7" loc="(390,150)" name="ALU"/>
+    <comp lib="0" loc="(210,260)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="S_Sig"/>
     </comp>
   </circuit>
 </project>
