@@ -2,7 +2,28 @@
 <project source="2.7.1" version="1.0">
   This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
 
-  <lib desc="#Wiring" name="0"/>
+  <lib desc="#Wiring" name="0">
+    <tool name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </tool>
+    <tool name="Pin">
+      <a name="facing" val="north"/>
+    </tool>
+    <tool name="Probe">
+      <a name="facing" val="north"/>
+    </tool>
+    <tool name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </tool>
+    <tool name="Clock">
+      <a name="facing" val="north"/>
+    </tool>
+    <tool name="Constant">
+      <a name="facing" val="north"/>
+    </tool>
+  </lib>
   <lib desc="#Gates" name="1"/>
   <lib desc="#Plexers" name="2"/>
   <lib desc="#Arithmetic" name="3"/>
@@ -16,7 +37,7 @@
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\msi\OneDrive\Desktop\Floating-Point-Adder-main\Floating-Point-Adder-main\Checker.circ" name="7"/>
+  <lib desc="file#Checker.circ" name="7"/>
   <main name="Flag Finder"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -118,16 +139,77 @@
     <wire from="(640,260)" to="(780,260)"/>
     <wire from="(640,300)" to="(780,300)"/>
     <wire from="(330,630)" to="(400,630)"/>
+    <comp lib="0" loc="(890,420)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="NaN"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(600,600)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(830,320)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="7" loc="(330,420)" name="32bit_0_checker"/>
     <comp lib="0" loc="(140,320)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="Overflow"/>
     </comp>
-    <comp lib="1" loc="(640,120)" name="NOT Gate"/>
+    <comp lib="0" loc="(170,560)" name="Pin">
+      <a name="width" val="9"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Exponent"/>
+    </comp>
+    <comp lib="1" loc="(830,420)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(830,150)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(890,490)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="INF"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="7" loc="(330,630)" name="1_cheacker"/>
+    <comp lib="1" loc="(960,90)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="7" loc="(330,560)" name="0_checker"/>
     <comp lib="1" loc="(830,240)" name="AND Gate">
       <a name="inputs" val="3"/>
     </comp>
+    <comp lib="0" loc="(170,420)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Significand"/>
+    </comp>
+    <comp lib="0" loc="(140,220)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Underflow "/>
+    </comp>
+    <comp lib="0" loc="(890,240)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Underflow"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(470,420)" name="NOT Gate"/>
+    <comp lib="0" loc="(1000,90)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Denormalized"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="1" loc="(830,490)" name="AND Gate">
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(640,120)" name="NOT Gate"/>
+    <comp lib="0" loc="(140,120)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Result==0?"/>
     </comp>
     <comp lib="1" loc="(830,70)" name="AND Gate">
       <a name="inputs" val="2"/>
@@ -138,66 +220,5 @@
       <a name="label" val="Overflow"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(830,150)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(140,120)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Result==0?"/>
-    </comp>
-    <comp lib="0" loc="(170,560)" name="Pin">
-      <a name="width" val="9"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Exponent"/>
-    </comp>
-    <comp lib="1" loc="(600,600)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(890,490)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="INF"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(890,420)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="NaN"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(830,320)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(170,420)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Significand"/>
-    </comp>
-    <comp lib="1" loc="(960,90)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(140,220)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Underflow "/>
-    </comp>
-    <comp lib="7" loc="(330,560)" name="0_checker"/>
-    <comp lib="0" loc="(890,240)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Underflow"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1000,90)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Denormalized"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(470,420)" name="NOT Gate"/>
-    <comp lib="7" loc="(330,420)" name="32bit_0_checker"/>
-    <comp lib="1" loc="(830,420)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="7" loc="(330,630)" name="1_cheacker"/>
   </circuit>
 </project>
