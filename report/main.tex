@@ -829,12 +829,12 @@ in scenarios where the result deviates from a normalized floating-point value.
         \hline
         \multicolumn{5}{|c|}{Input}     & \multirow{2}{*}{Flag}                                                                                                                                                 \\ \cline{1-5}
         \multicolumn{1}{|l|}{Result=0?} & \multicolumn{1}{l|}{Underflow} & \multicolumn{1}{l|}{Overflow} & \multicolumn{1}{l|}{Significand} & \multicolumn{1}{l|}{Exponent} &                                   \\ \hline
-        \multicolumn{1}{|c|}{0}         & \multicolumn{1}{c|}{$\times$}  & \multicolumn{1}{c|}{$\times$} & \multicolumn{1}{c|}{0}           & 0                             & \multicolumn{1}{l|}{Denormalized} \\ \hline
-        \multicolumn{1}{|c|}{$\times$}  & \multicolumn{1}{c|}{1}         & \multicolumn{1}{c|}{$\times$} & \multicolumn{1}{c|}{Not Zero}    & 0                             & \multicolumn{1}{l|}{Demornalized} \\ \hline
-        \multicolumn{1}{|c|}{$\times$}  & \multicolumn{1}{c|}{$\times$}  & \multicolumn{1}{c|}{$\times$} & \multicolumn{1}{c|}{0}           & 511                           & INF                               \\ \hline
-        \multicolumn{1}{|c|}{$\times$}  & \multicolumn{1}{c|}{$\times$}  & \multicolumn{1}{c|}{$\times$} & \multicolumn{1}{c|}{Not Zero}    & 511                           & NaN                               \\ \hline
-        \multicolumn{1}{|c|}{$\times$}  & \multicolumn{1}{c|}{1}         & \multicolumn{1}{c|}{$\times$} & \multicolumn{1}{c|}{Not Zero}    & 0 to 510                      & Underflow                         \\ \hline
-        \multicolumn{1}{|c|}{$\times$}  & \multicolumn{1}{c|}{$\times$}  & \multicolumn{1}{c|}{1}        & \multicolumn{1}{c|}{Not Zero}    & 0 to 510                      & Overflow                          \\ \hline
+        \multicolumn{1}{|c|}{0}         & \multicolumn{1}{c|}{0}         & \multicolumn{1}{c|}{0}        & \multicolumn{1}{c|}{0}           & 0                             & \multicolumn{1}{l|}{Denormalized} \\ \hline
+        \multicolumn{1}{|c|}{$\times$}  & \multicolumn{1}{c|}{0}         & \multicolumn{1}{c|}{0}        & \multicolumn{1}{c|}{Not Zero}    & 0                             & \multicolumn{1}{l|}{Demornalized} \\ \hline
+        \multicolumn{1}{|c|}{$\times$}  & \multicolumn{1}{c|}{0}         & \multicolumn{1}{c|}{0}        & \multicolumn{1}{c|}{0}           & 511                           & INF                               \\ \hline
+        \multicolumn{1}{|c|}{$\times$}  & \multicolumn{1}{c|}{0}         & \multicolumn{1}{c|}{0}        & \multicolumn{1}{c|}{Not Zero}    & 511                           & NaN                               \\ \hline
+        \multicolumn{1}{|c|}{$\times$}  & \multicolumn{1}{c|}{1}         & \multicolumn{1}{c|}{$\times$} & \multicolumn{1}{c|}{$\times$}    & $\times$                      & Underflow                         \\ \hline
+        \multicolumn{1}{|c|}{$\times$}  & \multicolumn{1}{c|}{$\times$}  & \multicolumn{1}{c|}{1}        & \multicolumn{1}{c|}{$\times$}    & $\times$                      & Overflow                          \\ \hline
     \end{tabular}
     \caption{Flag Checking}
 \end{table}
@@ -890,4 +890,22 @@ built-in circuits from the Logisim library and our own custom circuits.\\
 Overall, designing and implementing the floating-point adder was a rewarding
 experience that deepened our understanding of its inner workings.
 
+\section{Contribution}
+\subsection*{2105151~~Md.Sani Alam Khan Piyes}
+Rounder Circuit, Report Writing
+
+\subsection*{2105152~~Sudip Kumar Saha}
+Normalizer Library, Shifter Library, Checker Library, Testing, Report Writing
+
+\subsection*{2105167~~Samyo Pramanik}
+Initial Planning, Significand Adder Library, Normalizer, Flag Checker, Output
+Presenter, Final FPA, Testing, Report Writing
+
+\subsection*{2105172~~Mezba-Us-Saleheen}
+Input Processor Library, Rounded Normalizer, Report Writing
 \end{document}
+
+\item 2105151 -- Md.Sani Alam Khan Piyes
+\item 2105152 -- Sudip Kumar Saha
+\item 2105167 -- Samyo Pramanik
+\item 2105172 -- Mezba-Us-Saleheen
