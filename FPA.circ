@@ -220,20 +220,13 @@
     <wire from="(410,160)" to="(410,220)"/>
     <wire from="(760,150)" to="(770,150)"/>
     <wire from="(890,140)" to="(970,140)"/>
-    <comp lib="12" loc="(690,140)" name="Rounded Normalizer">
-      <a name="label" val="RNor"/>
+    <comp lib="0" loc="(150,110)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
     </comp>
-    <comp lib="0" loc="(970,140)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Denormalized"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="10" loc="(600,140)" name="Rounder">
-      <a name="label" val="Rnd"/>
-    </comp>
-    <comp lib="11" loc="(260,120)" name="Input Processing Handler">
-      <a name="label" val="IPH"/>
+    <comp lib="7" loc="(520,130)" name="Normalizer">
+      <a name="label" val="Normalizer"/>
     </comp>
     <comp lib="0" loc="(230,290)" name="Pin">
       <a name="facing" val="west"/>
@@ -242,8 +235,17 @@
       <a name="label" val="Result"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="9" loc="(760,150)" name="Output">
-      <a name="label" val="Repr"/>
+    <comp lib="0" loc="(970,170)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Underflow"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(970,140)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Denormalized"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(970,260)" name="Pin">
       <a name="facing" val="west"/>
@@ -251,19 +253,26 @@
       <a name="label" val="Inf"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(970,170)" name="Pin">
+    <comp lib="0" loc="(970,230)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="label" val="Underflow"/>
+      <a name="label" val="NaN"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="12" loc="(690,140)" name="Rounded Normalizer">
+      <a name="label" val="RNor"/>
     </comp>
     <comp lib="8" loc="(400,130)" name="Significand Adder">
       <a name="label" val="ALU"/>
     </comp>
-    <comp lib="0" loc="(150,110)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
+    <comp lib="10" loc="(600,140)" name="Rounder">
+      <a name="label" val="Rnd"/>
+    </comp>
+    <comp lib="9" loc="(760,150)" name="Output">
+      <a name="label" val="Repr"/>
+    </comp>
+    <comp lib="11" loc="(260,120)" name="Input Processing Handler">
+      <a name="label" val="IPH"/>
     </comp>
     <comp lib="0" loc="(150,200)" name="Pin">
       <a name="width" val="32"/>
@@ -278,15 +287,6 @@
     </comp>
     <comp lib="13" loc="(890,140)" name="Flag Finder">
       <a name="label" val="Flag"/>
-    </comp>
-    <comp lib="7" loc="(520,130)" name="Normalizer">
-      <a name="label" val="Normalizer"/>
-    </comp>
-    <comp lib="0" loc="(970,230)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="NaN"/>
-      <a name="labelloc" val="east"/>
     </comp>
   </circuit>
 </project>

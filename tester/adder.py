@@ -1,8 +1,14 @@
+bias = 255
+
+
 def parse_binary_float(binary_str):
     # Parse sign, exponent, and significand from binary string
     sign = int(binary_str[0], 2)
     exponent = int(binary_str[1:10], 2)
     significand = int(binary_str[10:], 2)
+
+    value = sign * (1 + significand/1e23) * 2 ** (exponent - bias)
+    print(value)
 
     return sign, exponent, significand
 
