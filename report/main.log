@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.6)  22 NOV 2024 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.6)  22 NOV 2024 21:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1029,152 +1029,137 @@ Package pdftex.def Info: 32bit_0_checker.png  used on input line 395.
 
 
 [7 <./32bitalu.png> <./Significand Adder.png (PNG copy)>]
-File: 0_checker.png Graphic file (type png)
-<use 0_checker.png>
-Package pdftex.def Info: 0_checker.png  used on input line 411.
-(pdftex.def)             Requested size: 203.83417pt x 31.65045pt.
-File: 1_checker.png Graphic file (type png)
-<use 1_checker.png>
-Package pdftex.def Info: 1_checker.png  used on input line 417.
-(pdftex.def)             Requested size: 203.83417pt x 34.45996pt.
-File: 32bit_0_checker.png Graphic file (type png)
-<use 32bit_0_checker.png>
-Package pdftex.def Info: 32bit_0_checker.png  used on input line 423.
-(pdftex.def)             Requested size: 203.83417pt x 94.80647pt.
-
-
-[8 <./0_checker.png (PNG copy)> <./1_checker.png (PNG copy)> <./32bit_0_checker.png (PNG copy)>]
-<1 bit leftShifter.png, id=195, 952.55875pt x 451.6875pt>
+<1 bit leftShifter.png, id=189, 952.55875pt x 451.6875pt>
 File: 1 bit leftShifter.png Graphic file (type png)
 <use 1 bit leftShifter.png>
-Package pdftex.def Info: 1 bit leftShifter.png  used on input line 465.
+Package pdftex.def Info: 1 bit leftShifter.png  used on input line 437.
 (pdftex.def)             Requested size: 135.89174pt x 64.43506pt.
-<2 bit leftShifter.png, id=196, 952.55875pt x 451.6875pt>
+<2 bit leftShifter.png, id=190, 952.55875pt x 451.6875pt>
 File: 2 bit leftShifter.png Graphic file (type png)
 <use 2 bit leftShifter.png>
-Package pdftex.def Info: 2 bit leftShifter.png  used on input line 471.
+Package pdftex.def Info: 2 bit leftShifter.png  used on input line 443.
 (pdftex.def)             Requested size: 135.89174pt x 64.43506pt.
-<4 bit leftShifter.png, id=197, 932.48375pt x 481.8pt>
+<4 bit leftShifter.png, id=191, 932.48375pt x 481.8pt>
 File: 4 bit leftShifter.png Graphic file (type png)
 <use 4 bit leftShifter.png>
-Package pdftex.def Info: 4 bit leftShifter.png  used on input line 477.
+Package pdftex.def Info: 4 bit leftShifter.png  used on input line 449.
 (pdftex.def)             Requested size: 135.89174pt x 70.2084pt.
-<8 bit leftShifter.png, id=198, 952.55875pt x 521.95pt>
+<8 bit leftShifter.png, id=192, 952.55875pt x 521.95pt>
 File: 8 bit leftShifter.png Graphic file (type png)
 <use 8 bit leftShifter.png>
-Package pdftex.def Info: 8 bit leftShifter.png  used on input line 487.
+Package pdftex.def Info: 8 bit leftShifter.png  used on input line 459.
 (pdftex.def)             Requested size: 135.89174pt x 74.45828pt.
-<16 bit leftShifter.png, id=199, 962.59625pt x 602.25pt>
+<16 bit leftShifter.png, id=193, 962.59625pt x 602.25pt>
 File: 16 bit leftShifter.png Graphic file (type png)
 <use 16 bit leftShifter.png>
-Package pdftex.def Info: 16 bit leftShifter.png  used on input line 493.
+Package pdftex.def Info: 16 bit leftShifter.png  used on input line 465.
 (pdftex.def)             Requested size: 135.89174pt x 85.01283pt.
-<Arbitary leftShifter.png, id=200, 813.0375pt x 391.4625pt>
+<Arbitary leftShifter.png, id=194, 813.0375pt x 391.4625pt>
 File: Arbitary leftShifter.png Graphic file (type png)
 <use Arbitary leftShifter.png>
-Package pdftex.def Info: Arbitary leftShifter.png  used on input line 499.
+Package pdftex.def Info: Arbitary leftShifter.png  used on input line 471.
 (pdftex.def)             Requested size: 135.89174pt x 65.42477pt.
-<1 bit rightShifter.png, id=201, 511.9125pt x 425.59pt>
+<1 bit rightShifter.png, id=195, 511.9125pt x 425.59pt>
 File: 1 bit rightShifter.png Graphic file (type png)
 <use 1 bit rightShifter.png>
-Package pdftex.def Info: 1 bit rightShifter.png  used on input line 509.
+Package pdftex.def Info: 1 bit rightShifter.png  used on input line 481.
 (pdftex.def)             Requested size: 135.89174pt x 112.97562pt.
-<2 bit righShifter.png, id=202, 511.9125pt x 425.59pt>
+<2 bit righShifter.png, id=196, 511.9125pt x 425.59pt>
 File: 2 bit righShifter.png Graphic file (type png)
 <use 2 bit righShifter.png>
-Package pdftex.def Info: 2 bit righShifter.png  used on input line 515.
+Package pdftex.def Info: 2 bit righShifter.png  used on input line 487.
 (pdftex.def)             Requested size: 135.89174pt x 112.97562pt.
-<4 bit rightShifter.png, id=203, 511.9125pt x 425.59pt>
+<4 bit rightShifter.png, id=197, 511.9125pt x 425.59pt>
 File: 4 bit rightShifter.png Graphic file (type png)
 <use 4 bit rightShifter.png>
-Package pdftex.def Info: 4 bit rightShifter.png  used on input line 521.
+Package pdftex.def Info: 4 bit rightShifter.png  used on input line 493.
 (pdftex.def)             Requested size: 135.89174pt x 112.97562pt.
-<8 bit rightShifter.png, id=204, 511.9125pt x 475.7775pt>
+<8 bit rightShifter.png, id=198, 511.9125pt x 475.7775pt>
 File: 8 bit rightShifter.png Graphic file (type png)
 <use 8 bit rightShifter.png>
-Package pdftex.def Info: 8 bit rightShifter.png  used on input line 531.
+Package pdftex.def Info: 8 bit rightShifter.png  used on input line 503.
 (pdftex.def)             Requested size: 135.89174pt x 126.29822pt.
-<16 bit rightShifter.png, id=205, 511.9125pt x 576.1525pt>
+<16 bit rightShifter.png, id=199, 511.9125pt x 576.1525pt>
 File: 16 bit rightShifter.png Graphic file (type png)
 <use 16 bit rightShifter.png>
-Package pdftex.def Info: 16 bit rightShifter.png  used on input line 537.
+Package pdftex.def Info: 16 bit rightShifter.png  used on input line 509.
 (pdftex.def)             Requested size: 135.89174pt x 152.94342pt.
-<Arbitary RightShifter.png, id=206, 659.46375pt x 351.3125pt>
+<Arbitary RightShifter.png, id=200, 659.46375pt x 351.3125pt>
 File: Arbitary RightShifter.png Graphic file (type png)
 <use Arbitary RightShifter.png>
-Package pdftex.def Info: Arbitary RightShifter.png  used on input line 543.
+Package pdftex.def Info: Arbitary RightShifter.png  used on input line 515.
 (pdftex.def)             Requested size: 135.89174pt x 72.3894pt.
-<Right_Shifter.png, id=207, 870.25125pt x 329.23pt>
+<Right_Shifter.png, id=201, 870.25125pt x 329.23pt>
 File: Right_Shifter.png Graphic file (type png)
 <use Right_Shifter.png>
-Package pdftex.def Info: Right_Shifter.png  used on input line 551.
+Package pdftex.def Info: Right_Shifter.png  used on input line 523.
 (pdftex.def)             Requested size: 135.89174pt x 51.40689pt.
 
 
-[9]
+[8 <./0_checker.png (PNG copy)> <./1_checker.png (PNG copy)> <./32bit_0_checker.png (PNG copy)>]
 Overfull \vbox (35.28987pt too high) has occurred while \output is active []
 
 
 
-[10 <./1 bit leftShifter.png (PNG copy)> <./2 bit leftShifter.png (PNG copy)> <./4 bit leftShifter.png (PNG copy)> <./8 bit leftShifter.png (PNG copy)> <./16 bit leftShifter.png (PNG copy)> <./Arbitary leftShifter.png (PNG copy)> <./1 bit rightShifter.png (PNG copy)> <./2 bit righShifter.png (PNG copy)> <./4 bit rightShifter.png (PNG copy)> <./8 bit rightShifter.png (PNG copy)> <./16 bit rightShifter.png (PNG copy)> <./Arbitary RightShifter.png (PNG copy)> <./Right_Shifter.png (PNG copy)>]
-<normalizer_shifter.png, id=217, 921.4425pt x 443.6575pt>
+[9 <./1 bit leftShifter.png (PNG copy)> <./2 bit leftShifter.png (PNG copy)> <./4 bit leftShifter.png (PNG copy)> <./8 bit leftShifter.png (PNG copy)> <./16 bit leftShifter.png (PNG copy)> <./Arbitary leftShifter.png (PNG copy)> <./1 bit rightShifter.png (PNG copy)> <./2 bit righShifter.png (PNG copy)> <./4 bit rightShifter.png (PNG copy)> <./8 bit rightShifter.png (PNG copy)> <./16 bit rightShifter.png (PNG copy)> <./Arbitary RightShifter.png (PNG copy)> <./Right_Shifter.png (PNG copy)>]
+<normalizer_shifter.png, id=212, 921.4425pt x 443.6575pt>
 File: normalizer_shifter.png Graphic file (type png)
 <use normalizer_shifter.png>
-Package pdftex.def Info: normalizer_shifter.png  used on input line 567.
+Package pdftex.def Info: normalizer_shifter.png  used on input line 539.
 (pdftex.def)             Requested size: 181.18439pt x 87.23383pt.
-<norm_add_sub.png, id=218, 1182.4175pt x 580.1675pt>
+<norm_add_sub.png, id=213, 1182.4175pt x 580.1675pt>
 File: norm_add_sub.png Graphic file (type png)
 <use norm_add_sub.png>
-Package pdftex.def Info: norm_add_sub.png  used on input line 573.
+Package pdftex.def Info: norm_add_sub.png  used on input line 545.
 (pdftex.def)             Requested size: 181.18439pt x 88.89812pt.
-<normalizer.png, id=219, 1341.01pt x 1021.8175pt>
+<normalizer.png, id=214, 1341.01pt x 1021.8175pt>
 File: normalizer.png Graphic file (type png)
 <use normalizer.png>
-Package pdftex.def Info: normalizer.png  used on input line 578.
+Package pdftex.def Info: normalizer.png  used on input line 550.
 (pdftex.def)             Requested size: 362.37569pt x 276.1127pt.
-<R.png, id=220, 870.25125pt x 434.37282pt>
+<R.png, id=215, 870.25125pt x 434.37282pt>
 File: R.png Graphic file (type png)
 <use R.png>
-Package pdftex.def Info: R.png  used on input line 590.
+Package pdftex.def Info: R.png  used on input line 562.
 (pdftex.def)             Requested size: 452.9679pt x 226.09389pt.
 
 
-[11 <./normalizer_shifter.png (PNG copy)> <./norm_add_sub.png (PNG copy)> <./normalizer.png (PNG copy)>]
-<RoundedNorm.png, id=226, 1002.74625pt x 361.35pt>
+[10 <./normalizer_shifter.png (PNG copy)> <./norm_add_sub.png (PNG copy)> <./normalizer.png (PNG copy)>]
+<RoundedNorm.png, id=221, 1002.74625pt x 361.35pt>
 File: RoundedNorm.png Graphic file (type png)
 <use RoundedNorm.png>
-Package pdftex.def Info: RoundedNorm.png  used on input line 601.
+Package pdftex.def Info: RoundedNorm.png  used on input line 573.
 (pdftex.def)             Requested size: 452.9679pt x 163.23456pt.
-<Flag.png, id=227, 1078.0275pt x 568.1225pt>
+<Flag.png, id=222, 1078.0275pt x 568.1225pt>
 File: Flag.png Graphic file (type png)
 <use Flag.png>
-Package pdftex.def Info: Flag.png  used on input line 611.
+Package pdftex.def Info: Flag.png  used on input line 583.
 (pdftex.def)             Requested size: 452.9679pt x 238.71384pt.
 
 
-[12 <./R.png> <./RoundedNorm.png (PNG copy)>]
-<Output.png, id=235, 641.39626pt x 602.25pt>
+[11 <./R.png> <./RoundedNorm.png (PNG copy)>]
+<Output.png, id=230, 641.39626pt x 602.25pt>
 File: Output.png Graphic file (type png)
 <use Output.png>
-Package pdftex.def Info: Output.png  used on input line 626.
+Package pdftex.def Info: Output.png  used on input line 598.
 (pdftex.def)             Requested size: 452.9679pt x 425.33066pt.
 
 
-[13 <./Flag.png (PNG copy)>]
-<FPA.jpg, id=242, 764.10469pt x 256.70906pt>
+[12 <./Flag.png (PNG copy)>]
+<FPA.jpg, id=236, 764.10469pt x 256.70906pt>
 File: FPA.jpg Graphic file (type jpg)
 <use FPA.jpg>
-Package pdftex.def Info: FPA.jpg  used on input line 639.
+Package pdftex.def Info: FPA.jpg  used on input line 611.
 (pdftex.def)             Requested size: 452.9679pt x 152.17776pt.
 
 
-[14 <./Output.png (PNG copy)>]
+[13 <./Output.png (PNG copy)>]
 
-[15 <./FPA.jpg>]
+[14 <./FPA.jpg>]
 
-[16]
+[15]
 
-Package karnaugh-map Warning: The API for specifying variable labels have been updated. You are currently using the old API(v1). In the new API each variable label is specified separately. See the documentation for more details. Backward compatibility may disappear in a future release. on input line 819.
+Package karnaugh-map Warning: The API for specifying variable labels have been updated. You are currently using the old API(v1). In the new API each variable label is specified separately. See the documentation for more details. Backward compatibility may disappear in a future release. on input line 791.
 
 \@karnaughmap@local@max@=\count478
 \@karnaughmap@local@northwest@=\count479
@@ -1185,41 +1170,41 @@ Package karnaugh-map Warning: The API for specifying variable labels have been u
 \@karnaughmap@local@southeast@=\count484
 
 
-[17]
-Overfull \hbox (14.65675pt too wide) in paragraph at lines 845--853
+[16]
+Overfull \hbox (14.65675pt too wide) in paragraph at lines 817--825
 \OML/cmm/m/it/12 Denormalized; INF\OT1/cmr/m/n/12 ([])\OML/cmm/m/it/12 ; NaN\OT1/cmr/m/n/12 ([])\OML/cmm/m/it/12 ; Underflow[]Overflow$\OT1/cmr/m/n/12 . This mech-
  []
 
 
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 896--901
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 868--873
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 902--907
+Underfull \hbox (badness 10000) in paragraph at lines 874--879
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 908--911
+Underfull \hbox (badness 10000) in paragraph at lines 880--883
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 912--914
+Underfull \hbox (badness 10000) in paragraph at lines 884--886
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--917
+Underfull \hbox (badness 10000) in paragraph at lines 887--889
 
  []
 
 
 
-[19] (main.aux)
+[18] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -1231,17 +1216,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32921 strings out of 473904
- 653177 string characters out of 5727073
+ 32919 strings out of 473904
+ 653153 string characters out of 5727073
  1957908 words of memory out of 5000000
  55255 multiletter control sequences out of 15000+600000
  564990 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,93p,729b,1078s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Asus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (19 pages, 648400 bytes).
+Output written on main.pdf (18 pages, 647032 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
  400 words of extra memory for PDF output out of 10000 (max. 10000000)
 
