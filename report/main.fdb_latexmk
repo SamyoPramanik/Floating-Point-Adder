@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1732296573.70801 "main.bcf" "main.bbl" "main" 1732296581.44582 0
-  "main.bcf" 1732296581 107992 1372e320b8e132f38eb5706b82283cc8 "pdflatex"
+["biber main"] 1732296573.70801 "main.bcf" "main.bbl" "main" 1732296928.00698 0
+  "main.bcf" 1732296927 107992 1372e320b8e132f38eb5706b82283cc8 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1732296578.62442 "d:/assignment_2_2/cse210/FPA/report/main.tex" "main.pdf" "main" 1732296581.44652 0
+["pdflatex"] 1732296925.25014 "d:/assignment_2_2/cse210/FPA/report/main.tex" "main.pdf" "main" 1732296928.00765 0
   "0_checker.png" 1732249982 3267 345cd2df05dd1f061b67d200fe14a0d9 ""
   "1 bit leftShifter.png" 1732249982 11219 58d3f21deda6016d1abcd60b66806bdb ""
   "1 bit rightShifter.png" 1732249982 9851 33b74603166e3289540ef055e6a24d2c ""
@@ -224,13 +224,13 @@
   "Right_Shifter.png" 1732249982 9099 7e8de36bc56d4ebbc9dbf43e922eaade ""
   "RoundedNorm.png" 1732271070 8621 ddb2d28acd260a6d7766a8cd86952165 ""
   "Significand Adder.png" 1732271017 16010 4449bb316c4f9bc4cff14061ae1359d5 ""
-  "d:/assignment_2_2/cse210/FPA/report/main.tex" 1732296536 35843 ab25ef57c789b063db19de0c4426dedb ""
+  "d:/assignment_2_2/cse210/FPA/report/main.tex" 1732296924 35743 8a1928e28da62d9fec856c53ef1ad182 ""
   "input_processor.png" 1732249982 18549 943c554b3a25a39276370fc65dd4a54c ""
-  "main.aux" 1732296581 7002 0cd32e7a594126958c0d55811079cacb "pdflatex"
+  "main.aux" 1732296927 7002 0cd32e7a594126958c0d55811079cacb "pdflatex"
   "main.bbl" 1732296575 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.out" 1732296581 4965 9534fa67316bc27a66af73167e21cab0 "pdflatex"
-  "main.run.xml" 1732296581 2224 bc6149f5caee4074188e1b81a66978d0 "pdflatex"
-  "main.tex" 1732296536 35843 ab25ef57c789b063db19de0c4426dedb ""
+  "main.out" 1732296927 4965 9534fa67316bc27a66af73167e21cab0 "pdflatex"
+  "main.run.xml" 1732296927 2224 bc6149f5caee4074188e1b81a66978d0 "pdflatex"
+  "main.tex" 1732296924 35743 8a1928e28da62d9fec856c53ef1ad182 ""
   "mezba_image/Exp_process.png" 1732249982 21602 f6464d98e892857a6cece9fadce1a5a6 ""
   "mezba_image/input_process.png" 1732249982 25192 c6791424f02f541b9f35732c0ddcc2bb ""
   "norm_add_sub.png" 1732249982 16095 bb9fc5b9a5ababb8462a46d11c5c7cc0 ""
